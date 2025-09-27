@@ -1,0 +1,4 @@
+.categories-section { display: flex; justify-content: center; gap: 20px; margin: 60px auto; flex-wrap: wrap; }
+.categories-section button { background-color: transparent; border: none; font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; color: var(--text-light); cursor: pointer; padding-bottom: 5px; border-bottom: 2px solid transparent; transition: color 0.3s, border-color 0.3s; }
+.categories-section button:hover { color: var(--text-dark); }
+.categories-section button.active { color: var(--text-dark); border-bottom: 2px solid var(--text-dark); }

@@ -1,0 +1,119 @@
+.passion-categories-section {
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  height:70vh;
+}
+
+/* This div now acts as the dark background, matching the footer */
+.passion-image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: -2;
+  background-color: #222; /* CHANGED: Match footer background */
+}
+
+/* Transparent overlay (can be used for gradients later if desired) */
+.passion-categories-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+}
+
+.passion-categories-grid {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+/* Content styling */
+.passion-content {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #a9a9a9; /* CHANGED: Default light text color to match footer */
+}
+
+.passion-content .section-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #fff; /* CHANGED: White for better contrast on dark background */
+}
+
+.passion-content .subtitle {
+  color: var(--primary-green);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.passion-category-list {
+  margin-bottom: 50px;
+}
+
+.passion-category-list li {
+  padding: 5px;
+  font-weight: 500;
+  list-style: none;
+  font-size: large;
+}
+
+.passion-category-list li a {
+  color: #fff; /* CHANGED: White link text for readability */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.passion-category-list li a:hover {
+  color: var(--primary-green);
+}
+
+/* Button */
+.btn-all-categories {
+  background-color: var(--primary-green);
+  color: #fff;
+  margin-top: 35px;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: 800;
+}
+.btn-all-categories:hover {
+  background-color: #82b03c;
+}
+
+/* Side floating small images (styles retained from your code) */
+.passion-image-2, .passion-image-4 {
+  position: absolute;
+  z-index: 3;
+}
+
+.passion-image-2 {
+  top: 20%;
+  left: 5%;
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.passion-image-4 {
+  bottom: 15%;
+  left: 8%;
+  width: 200px;
+  height: 140px;
+  border-radius: 12px;
+  overflow: hidden;
+}

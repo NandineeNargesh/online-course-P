@@ -1,0 +1,98 @@
+[
+  {
+    "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+    "category": "Web Development",
+    "price": 94.99,
+    "rating": 4.7,
+    "studentCount": 345123
+  },
+  {
+    "title": "Node.js API Masterclass - Express, MongoDB, & Mongoose",
+    "description": "Build a complete, production-ready RESTful API from scratch with Node.js, Express and MongoDB.",
+    "category": "Web Development",
+    "price": 89.99,
+    "rating": 4.8,
+    "studentCount": 110234
+  },
+  {
+    "title": "Python for Data Science and Machine Learning Bootcamp",
+    "description": "Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
+    "category": "Data Science",
+    "price": 109.99,
+    "rating": 4.6,
+    "studentCount": 450678
+  },
+  {
+    "title": "Docker & Kubernetes: The Practical Guide",
+    "description": "Learn Docker and Kubernetes in-depth. Build, test, deploy your applications with Docker and Kubernetes.",
+    "category": "DevOps",
+    "price": 79.99,
+    "rating": 4.9,
+    "studentCount": 95123
+  },
+  {
+    "title": "UI & Web Design using Adobe XD and Figma",
+    "description": "Learn UI/UX design from scratch. Create mobile app and website designs with the latest prototyping tools.",
+    "category": "UI/UX Design",
+    "price": 69.99,
+    "rating": 4.5,
+    "studentCount": 78456
+  },
+  {
+    "title": "The Complete JavaScript Course: From Zero to Expert!",
+    "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+    "category": "Web Development",
+    "price": 99.99,
+    "rating": 4.7,
+    "studentCount": 654321
+  },
+  {
+    "title": "SQL - MySQL for Data Analytics and Business Intelligence",
+    "description": "Master SQL, Database Management & Design and work with databases like MySQL, PostgreSQL, and more!",
+    "category": "Data Science",
+    "price": 59.99,
+    "rating": 4.6,
+    "studentCount": 210987
+  },
+  {
+    "title": "AWS Certified Solutions Architect - Associate",
+    "description": "Pass the AWS Certified Solutions Architect - Associate exam. Learn all about AWS with hands-on labs.",
+    "category": "DevOps",
+    "price": 119.99,
+    "rating": 4.8,
+    "studentCount": 150234
+  },
+  {
+    "title": "Flutter & Dart - The Complete Guide",
+    "description": "A complete guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps.",
+    "category": "Web Development",
+    "price": 84.99,
+    "rating": 4.6,
+    "studentCount": 65432
+  },
+  {
+    "title": "Deep Learning Specialization",
+    "description": "Become a Machine Learning expert. Learn the foundations of Deep Learning, understand how to build neural networks, and lead successful ML projects.",
+    "category": "Data Science",
+    "price": 129.99,
+    "rating": 4.9,
+    "studentCount": 198765
+  },
+  {
+    "title": "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master",
+    "description": "Master Jenkins, the popular CI/CD tool for DevOps. Learn to automate your development pipeline.",
+    "category": "DevOps",
+    "price": 49.99,
+    "rating": 4.5,
+    "studentCount": 54321
+  },
+  {
+    "title": "Design Thinking for Beginners: Develop Innovative Ideas",
+    "description": "Learn the design thinking process to create innovative and user-centric products and services.",
+    "category": "UI/UX Design",
+    "price": 39.99,
+    "rating": 4.7,
+    "studentCount": 43210
+  }
+]

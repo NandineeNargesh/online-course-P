@@ -1,0 +1,40 @@
+### @name login
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "instructor@example.com",
+  "password": "password123"
+}
+
+### Grab the token from the login response
+@token = {{login.response.body.token}}
+
+### -------------------------------------------
+
+### @name createCourse
+POST http://localhost:5000/api/courses
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Advanced Node.js",
+  "description": "A course created with REST Client.",
+  "category": "Web Development",
+  "price": 120
+}
+
+### Grab the courseId from the create course response
+@courseId = {{createCourse.response.body.data._id}}
+
+### -------------------------------------------
+
+### @name addLecture
+POST http://localhost:5000/api/courses/{{courseId}}/lectures
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Chapter 5: Advanced Middleware",
+  "content": "This is the content for the new lecture."
+}

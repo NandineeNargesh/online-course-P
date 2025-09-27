@@ -1,0 +1,36 @@
+.lecture-list-item {
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 0;
+}
+.lecture-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.lecture-arrow {
+  color: var(--primary-green);
+  margin-right: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+.lecture-arrow.open {
+  transform: rotate(90deg);
+}
+.lecture-content {
+  padding: 15px 10px 15px 30px; /* Indent content */
+  border-top: 1px solid #f0f0f0;
+  margin-top: 10px;
+}
+.assignments-section {
+  margin-top: 20px;
+}
+.assignments-section h4 {
+  margin-bottom: 10px;
+}
+.assignments-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.assignment-item {
+  padding: 5px 0;
+}

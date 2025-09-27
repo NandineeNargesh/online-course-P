@@ -1,0 +1,25 @@
+:root {
+  --primary-green: #96c84c;
+  --text-dark: #222;
+  --text-light: #666;
+  --background-light: #fff;
+  --border-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
