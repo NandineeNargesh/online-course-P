@@ -86,7 +86,7 @@ Git: To clone the repository.
 Installation & Setup
 Clone the repository:
 
-git clone [https://github.com/your-username/education-platform-project.git](https://github.com/your-username/education-platform-project.git)
+git clone [https://github.com/your-username/education-platform-project.git]((https://github.com/NandineeNargesh/online-course-P.git))
 cd education-platform-project
 
 Setup Backend:
